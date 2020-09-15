@@ -140,17 +140,6 @@ body {
     color: var(--secondary-color);
 }
 
-
-.footer-email-link, 
-.footer-tel-link {
-    font-family: var(--main-font);
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.143;
-    letter-spacing: 0.02em;
-    color: rgba(255, 255, 255, 0.6); 
- }
-
 .projects-navigation-btn {
     background: #F5F4FA;
     font-family: Roboto;
@@ -183,4 +172,22 @@ body {
     line-height: 2;
     letter-spacing: 0.03em;
     color: var(--secondary-color)
+}
+
+.footer-address-text {
+    font-family: var(--main-font);    
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.714; 
+    letter-spacing: 0.03em;    
+}
+
+.footer-email-link, 
+.footer-tel-link {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.143;
+    letter-spacing: 0.02em;
+    color: var(--title-main-color)
 }
