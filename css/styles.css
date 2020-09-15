@@ -49,6 +49,8 @@ body {
     color: var(--title-main-color);
 }
 
+
+
 .header-email-link, 
 .header-tel-link {
     font-family: var(--main-font);    
@@ -62,6 +64,10 @@ body {
 .navigation-list-link:hover,
 .navigation-list-link:focus {
     color: var(--accent-color);
+}
+
+.current {
+    color: var(--accent-color)
 }
 
 .header-email-link:hover,
@@ -142,15 +148,8 @@ body {
     font-size: 14px;
     line-height: 1.143;
     letter-spacing: 0.02em;
-    color: var(--secondary-color); 
+    color: rgba(255, 255, 255, 0.6); 
  }
-
-.footer-email-link:hover,
-.footer-email-link:focus,
-.footer-tel-link:hover,
-.footer-tel-link:focus {
-    color: var(--accent-color);
-}
 
 .projects-navigation-btn {
     background: #F5F4FA;
